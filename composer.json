@@ -1,0 +1,21 @@
+{
+    "name": "winterwolfie/zpd",
+    "autoload": {
+        "psr-4": {
+            "zpd\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "winterwolfie/phphare": "*"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Winterwolfie/PhpHare"
+        }
+    ]
+}

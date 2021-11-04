@@ -1,2 +1,2 @@
 # zpd
-zpd gruzinksis
+zpd gruzinksis, gruzinskis, zpd

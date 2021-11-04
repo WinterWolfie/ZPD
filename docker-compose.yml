@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  nginx:
+    image: nginx:1.19-alpine
+    restart: always
+    ports:
+      - "1234:80"
+    volumes:
+      - ./:/var/www
+      - ./dockeris/nginx:/etc/nginx/conf.d
+
+  php:
+    build:
+      context: ""
+      dockerfile: dockeris/Dockerfile
+    restart: always
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
