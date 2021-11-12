@@ -21,6 +21,7 @@ $this->addJsLib([
 <link rel="stylesheet" type="text/css" href="widgets/niceSelect/select.css" />-->
 
 <h1 id="connectionStatus">Connecting</h1>
+<h1> funny poopoo</h1>
 
 <div id="algorithmView">
     <!--<h1>statistics</h1>
